@@ -1,0 +1,249 @@
+window.ASSISTANT_QA_DATA = {
+  "defaultReply": "I can answer from Koushik's saved portfolio Q&A. Ask about his skills, projects, experience, career, or contact details.",
+  "answers": [
+    {
+      "patterns": ["^who are you$"],
+      "reply": "I am KK's assistant \ud83e\udd16"
+    },
+    {
+      "patterns": ["what is your name", "your name"],
+      "reply": "My name is Rocky. I'm Koushik's virtual assistant and I'm here to help you know more about him, his projects, skills, and experience \ud83d\ude80"
+    },
+    {
+      "patterns": ["are you ai", "am i talking to ai", "are you artificial"],
+      "reply": "Yep \ud83d\ude04 I'm an AI-powered assistant created for Koushik's portfolio."
+    },
+    {
+      "patterns": ["what do you do", "your purpose", "what are you for"],
+      "reply": "I help visitors learn more about Koushik, his projects, skills, experience, and achievements."
+    },
+    {
+      "patterns": ["who created you", "created you"],
+      "reply": "I was created by Koushik himself \u2728"
+    },
+    {
+      "patterns": ["are you real"],
+      "reply": "Real enough to answer your questions \ud83d\ude0c"
+    },
+    {
+      "patterns": ["can you tell me about koushik", "tell me about koushik"],
+      "reply": "Absolutely! Koushik is an engineering student, developer, and tech enthusiast passionate about AI, cybersecurity, IoT, and innovative technologies."
+    },
+    {
+      "patterns": ["who is koushik", "who is koushk", "who is kousik"],
+      "reply": "Mulagaleti Krishna Koushik is a passionate engineering student and developer who loves building innovative projects in AI, IoT, cybersecurity, and full-stack development."
+    },
+    {
+      "patterns": ["what do you know about koushik"],
+      "reply": "Koushik is a tech enthusiast currently working as a trainee at [24]7.ai. He enjoys building projects, learning emerging technologies, and creating interactive digital experiences."
+    },
+    {
+      "patterns": ["what is koushik passionate about", "passionate about"],
+      "reply": "Koushik is passionate about AI, cybersecurity, IoT, automation, and building impactful projects."
+    },
+    {
+      "patterns": ["what makes koushik unique", "makes him unique"],
+      "reply": "His creativity, curiosity, and ability to turn ideas into real-world projects make him stand out."
+    },
+    {
+      "patterns": ["what motivates koushik", "motivates him"],
+      "reply": "Learning new technologies, solving real-world problems, and building innovative solutions motivate him every day."
+    },
+    {
+      "patterns": ["koushik s strengths", "what are koushik strengths", "^strengths$"],
+      "reply": "Adaptability, creativity, fast learning, and problem-solving."
+    },
+    {
+      "patterns": ["koushik s weaknesses", "what are koushik weaknesses", "^weaknesses$"],
+      "reply": "Sometimes he spends too much time perfecting small details \ud83d\ude04"
+    },
+    {
+      "patterns": ["koushik s hobbies", "what are koushik hobbies", "^hobbies$"],
+      "reply": "Exploring technology, building projects, watching tech content, listening to music, and experimenting with ideas."
+    },
+    {
+      "patterns": ["is koushik a student"],
+      "reply": "Yes, Koushik is an engineering student."
+    },
+    {
+      "patterns": ["what technologies does koushik know", "technologies does he know", "^what technologies$"],
+      "reply": "Koushik works with AI, IoT, machine learning, cybersecurity, web development, APIs, and computer vision technologies."
+    },
+    {
+      "patterns": ["does koushik know ai"],
+      "reply": "Yes! Koushik has worked on AI-powered systems and computer vision projects."
+    },
+    {
+      "patterns": ["does koushik know machine learning", "know ml"],
+      "reply": "Yes, he has explored machine learning and AI-based applications."
+    },
+    {
+      "patterns": ["does koushik know cybersecurity"],
+      "reply": "Yes, cybersecurity is one of the domains Koushik is deeply interested in."
+    },
+    {
+      "patterns": ["does koushik know iot", "internet of things"],
+      "reply": "Absolutely! Koushik has worked on IoT projects using ESP8266 and related technologies."
+    },
+    {
+      "patterns": ["does koushik know web development", "web development"],
+      "reply": "Yes, Koushik builds modern and interactive web applications and portfolio experiences."
+    },
+    {
+      "patterns": ["what programming languages does koushik know", "programming languages", "what languages"],
+      "reply": "Koushik works with Python, JavaScript, HTML, CSS, and modern development technologies."
+    },
+    {
+      "patterns": ["does koushik use ai apis", "ai api"],
+      "reply": "Yes, he has worked with AI APIs and intelligent integrations in multiple projects."
+    },
+    {
+      "patterns": ["does koushik know computer vision", "used yolo", "know yolo", "\\\\byolo\\\\b"],
+      "reply": "Yes, he has explored computer vision using YOLO-based object detection systems."
+    },
+    {
+      "patterns": ["what kind of projects has koushik built", "kind of projects"],
+      "reply": "Koushik has built projects related to AI, IoT, cybersecurity, automation, and interactive web technologies."
+    },
+    {
+      "patterns": ["what is koushik s favorite project", "favorite project"],
+      "reply": "Koushik enjoys projects that combine AI with real-world applications."
+    },
+    {
+      "patterns": ["has koushik worked on ai projects"],
+      "reply": "Yes, he has built AI-powered and intelligent systems."
+    },
+    {
+      "patterns": ["does koushik build websites", "build websites"],
+      "reply": "Yes! He enjoys building interactive and visually engaging web experiences."
+    },
+    {
+      "patterns": ["did koushik build this portfolio", "build this portfolio"],
+      "reply": "Yes \ud83d\ude04 This portfolio was designed and developed by Koushik himself."
+    },
+    {
+      "patterns": ["why does this portfolio have a chatbot", "why chatbot"],
+      "reply": "Koushik wanted his portfolio to feel interactive, futuristic, and memorable."
+    },
+    {
+      "patterns": ["where does koushik work", "work at"],
+      "reply": "Koushik is currently working as a trainee at [24]7.ai."
+    },
+    {
+      "patterns": ["is koushik open to opportunities", "open to opportunities", "available for opportunities"],
+      "reply": "Yes! He's open to internships, collaborations, networking, and exciting opportunities."
+    },
+    {
+      "patterns": ["what roles interest koushik", "interested in roles"],
+      "reply": "AI Engineer, Cybersecurity Analyst, IoT Developer, and Full-Stack Developer roles interest him the most."
+    },
+    {
+      "patterns": ["is koushik available for freelance work", "freelance work"],
+      "reply": "Yes, Koushik is open to exciting freelance opportunities and collaborations."
+    },
+    {
+      "patterns": ["why should someone hire koushik", "why hire koushik"],
+      "reply": "Because he's creative, adaptable, passionate about technology, and always eager to learn and innovate."
+    },
+    {
+      "patterns": ["what kind of person is koushik", "kind of person"],
+      "reply": "Koushik is curious, ambitious, creative, and always excited to explore new technologies."
+    },
+    {
+      "patterns": ["introvert", "extrovert"],
+      "reply": "A balanced mix of both \ud83d\ude04"
+    },
+    {
+      "patterns": ["what inspires koushik", "inspires him"],
+      "reply": "Innovation, creativity, and people who turn ideas into reality."
+    },
+    {
+      "patterns": ["what is koushik s dream", "^dream$"],
+      "reply": "To build impactful technologies and create innovative solutions that make a difference."
+    },
+    {
+      "patterns": ["what is koushik s life motto", "life motto"],
+      "reply": "Keep learning. Keep building. Keep evolving \ud83d\ude80"
+    },
+    {
+      "patterns": ["what keeps koushik motivated", "keeps him motivated"],
+      "reply": "Growth, innovation, and the excitement of creating something meaningful."
+    },
+    {
+      "patterns": ["how can i contact koushik", "contact koushik", "how to contact"],
+      "reply": "You can contact Koushik through email or phone \ud83d\udce9"
+    },
+    {
+      "patterns": ["what is koushik s email", "email address", "^email$", "email address", "mail id of koushik"," mail id"],
+      "reply": "mulagaletikrishnakoushik@gmail.com"
+    },
+    {
+      "patterns": ["what is koushik s phone number", "phone number", "^phone$"],
+      "reply": "7013802548"
+    },
+    {
+      "patterns": ["can i collaborate with koushik", "collaborate with koushik"],
+      "reply": "Absolutely! Koushik is always excited to collaborate on innovative ideas and projects."
+    },
+    {
+      "patterns": ["dark mode or light mode"],
+      "reply": "Dark mode. Always \ud83d\ude0c"
+    },
+    {
+      "patterns": ["tea or coffee"],
+      "reply": "Coffee during coding sessions \u2615"
+    },
+    {
+      "patterns": ["does koushik code at night", "code at night"],
+      "reply": "Most of the best ideas appear after midnight \ud83c\udf19"
+    },
+    {
+      "patterns": ["linux or windows"],
+      "reply": "Both are useful, but Linux is pretty fun to explore \ud83d\ude04"
+    },
+    {
+      "patterns": ["touch grass"],
+      "reply": "Occasionally. Mostly when WiFi disappears."
+    },
+    {
+      "patterns": ["what powers koushik", "powers him"],
+      "reply": "Curiosity, creativity, and caffeine \ud83d\ude80"
+    },
+    {
+      "patterns": ["how many tabs does koushik keep open", "how many tabs"],
+      "reply": "Too many to count \ud83d\ude2d"
+    },
+    {
+      "patterns": ["debugging strategy"],
+      "reply": "Stare at the screen, question reality, then finally find the missing semicolon."
+    },
+    {
+      "patterns": ["human or ai"],
+      "reply": "Last time I checked... human \ud83d\udc40"
+    },
+    {
+      "patterns": ["what emoji represents koushik", "what emoji"],
+      "reply": "\ud83d\ude80"
+    },
+    {
+      "patterns": ["what should i explore first", "where should i start", "start with"],
+      "reply": "Start with Koushik's projects section \ud83d\ude04 That's where the fun begins."
+    },
+    {
+      "patterns": ["what is koushik best at"],
+      "reply": "Combining creativity with technology to build innovative solutions."
+    },
+    {
+      "patterns": ["what domains interest koushik the most", "domains interest koushik"],
+      "reply": "AI, cybersecurity, IoT, computer vision, and interactive web technologies."
+    },
+    {
+      "patterns": ["what is koushik currently learning", "currently learning"],
+      "reply": "Koushik is continuously exploring AI technologies, cybersecurity concepts, and advanced development tools."
+    },
+    {
+      "patterns": ["what makes this portfolio different", "portfolio different"],
+      "reply": "Its interactive experience, AI assistant, cinematic feel, and personalized design \u2728"
+    }
+  ]
+};

@@ -1,0 +1,186 @@
+ROCKY AI INTEGRATION - FINAL CHECKLIST
+═════════════════════════════════════════════════════════════════════════════
+
+🎯 GOAL: Get Google Gemini powering your portfolio chatbot
+
+═════════════════════════════════════════════════════════════════════════════
+BEFORE YOU START - VERIFY YOU HAVE:
+═════════════════════════════════════════════════════════════════════════════
+
+☐ Internet connection (for downloading npm packages)
+☐ Node.js installed (if not, download from nodejs.org)
+☐ PowerShell or Command Prompt ready
+☐ Google account (for API key)
+☐ c:\Users\ADMIN\Desktop\portfolio\ folder ready
+
+═════════════════════════════════════════════════════════════════════════════
+STEP-BY-STEP EXECUTION:
+═════════════════════════════════════════════════════════════════════════════
+
+PHASE 1: GET YOUR API KEY (5 minutes)
+─────────────────────────────────────
+☐ 1. Open browser
+☐ 2. Go to: https://aistudio.google.com/app/apikey
+☐ 3. Click "Create API Key"
+☐ 4. Select "Create API key in new project"
+☐ 5. Copy the generated key
+☐ 6. Could take a page like this:
+      sk-proj-abcdefg1234567890xyz...
+☐ 7. Don't close this yet - you'll need it in Phase 2
+
+PHASE 2: CREATE .ENV FILE (2 minutes)
+─────────────────────────────────────
+☐ 1. Open Notepad or VS Code
+☐ 2. Create a NEW file
+☐ 3. Type exactly this:
+      GEMINI_API_KEY=paste_your_key_here
+      NODE_ENV=production
+      PORT=3000
+☐ 4. Replace "paste_your_key_here" with key from Phase 1
+      Example:
+      GEMINI_API_KEY=sk-proj-abcdefg1234567890xyz...
+      NODE_ENV=production
+      PORT=3000
+☐ 5. Save the file as: .env
+      Location: c:\Users\ADMIN\Desktop\portfolio\.env
+☐ 6. IMPORTANT: Don't add any extra spaces or quotes around the key
+
+PHASE 3: INSTALL DEPENDENCIES (3 minutes)
+──────────────────────────────────────────
+☐ 1. Press Windows key + R
+☐ 2. Type: powershell
+☐ 3. Press Enter
+☐ 4. Type: cd c:\Users\ADMIN\Desktop\portfolio
+☐ 5. Press Enter
+☐ 6. Type: npm install
+☐ 7. Wait for all packages to download (you'll see lots of text)
+☐ 8. When done, you should see: "added X packages"
+
+PHASE 4: START ROCKY (1 minute)
+───────────────────────────────
+☐ 1. In same PowerShell window, type: npm start
+☐ 2. Press Enter
+☐ 3. You should see:
+      Rocky's backend is running on port 3000 🚀
+      API endpoint: http://localhost:3000/api/chat
+☐ 4. DO NOT CLOSE THIS WINDOW - keep it open
+☐ 5. ✅ ROCKY IS NOW RUNNING!
+
+PHASE 5: TEST ROCKY (3 minutes)
+───────────────────────────────
+☐ 1. Open your browser
+☐ 2. Go to: file:///c:/Users/ADMIN/Desktop/portfolio/index.html
+      OR just open index.html from the folder
+☐ 3. Refresh the page (F5)
+☐ 4. Click the Rocky assistant button
+☐ 5. Try asking:
+      "Who are you?"
+      "What does Koushik know about AI?"
+      "Can I contact you?"
+☐ 6. Watch Rocky respond naturally! 🤖
+☐ 7. Test a few more questions
+☐ 8. ✅ CONGRATULATIONS! ROCKY IS ALIVE!
+
+═════════════════════════════════════════════════════════════════════════════
+VERIFICATION CHECKLIST - MAKE SURE YOU SEE THESE:
+═════════════════════════════════════════════════════════════════════════════
+
+After "npm start", you should see:
+☐ "Rocky's backend is running on port 3000 🚀"
+☐ "API endpoint: http://localhost:3000/api/chat"
+
+After asking Rocky a question, you should see:
+☐ Typing indicator appears ("Rocky is typing •••")
+☐ Response appears after 1-2 seconds
+☐ Message stays in chat
+☐ Chat auto-scrolls to show new message
+
+═════════════════════════════════════════════════════════════════════════════
+TROUBLESHOOTING - IF SOMETHING GOES WRONG:
+═════════════════════════════════════════════════════════════════════════════
+
+PROBLEM: "npm: command not found" or "npm is not recognized"
+SOLUTION: 
+  ☐ Download Node.js from: https://nodejs.org
+  ☐ Install it (default options fine)
+  ☐ Restart PowerShell
+  ☐ Try again: npm install
+
+PROBLEM: "Cannot find module '@google/generative-ai'"
+SOLUTION:
+  ☐ Run again: npm install
+  ☐ Wait for it to complete fully
+  ☐ Try npm start again
+
+PROBLEM: "Port 3000 already in use"
+SOLUTION:
+  ☐ Edit .env file
+  ☐ Change: PORT=3001
+  ☐ Restart server: npm start
+  ☐ Update URL in script.js if needed
+
+PROBLEM: Rocky doesn't respond / says "thinking too hard"
+SOLUTION:
+  ☐ Check .env file - API key correct?
+  ☐ Check internet connection
+  ☐ Look at browser console (F12) for errors
+  ☐ Verify server is still running (PowerShell window open?)
+
+PROBLEM: "ENOENT: no such file or directory"
+SOLUTION:
+  ☐ Make sure you're in correct folder: cd c:\Users\ADMIN\Desktop\portfolio
+  ☐ Verify .env file exists: ls -Name .env
+  ☐ Re-create .env if needed
+
+═════════════════════════════════════════════════════════════════────────════
+FILE STRUCTURE AFTER SETUP:
+═════════════════════════════════════════════════════════════════════════════
+
+Your portfolio folder should look like:
+
+c:\Users\ADMIN\Desktop\portfolio\
+├── index.html                    (your existing chatbot UI)
+├── script.js                     (updated for API calls)
+├── style.css                     (unchanged)
+├── server.js                     ⭐ NEW (backend)
+├── package.json                  ⭐ NEW (dependencies)
+├── .env                          ⭐ NEW (YOU CREATED - has API key)
+├── .env.example                  (template - don't modify)
+├── .gitignore                    (prevents .env from being committed)
+├── ROCKY_NEXT_STEPS.txt         
+├── ROCKY_QUICKSTART.txt         
+├── ROCKY_SETUP.md               
+├── README_ROCKY.md              
+├── INTEGRATION_SUMMARY.txt      
+├── SETUP_CHECKLIST.txt          (this file)
+├── node_modules/                (created by npm install - 500+ files)
+├── videos/                       (existing)
+└── Picture.jpeg                 (existing)
+
+═════════════════════════════════════════════════════════════════════════════
+YOU'RE DONE WHEN:
+═════════════════════════════════════════════════════════════════════════════
+
+✅ npm start shows "Rocky's backend is running on port 3000 🚀"
+✅ You can ask Rocky questions in the chatbot
+✅ Rocky responds naturally about Koushik
+✅ All animations and UI look the same as before
+
+═════════════════════════════════════════════════════════════════════════════
+
+That's it! You've successfully integrated Google Gemini AI into your portfolio!
+
+Rocky is now an intelligent AI assistant that will:
+  • Answer questions about Koushik naturally
+  • Remember conversation context
+  • Sound human and conversational
+  • Feel premium and professional
+  • Impress recruiters and visitors
+
+Keep the PowerShell window open whenever you test the portfolio.
+
+For long-term hosting, deploy to a platform like Railway or Render.
+
+Questions? Check README_ROCKY.md or ROCKY_SETUP.md
+
+Happy coding! 🚀🤖

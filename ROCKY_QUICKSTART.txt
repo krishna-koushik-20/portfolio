@@ -1,0 +1,31 @@
+# Rocky Quick Start
+
+## 🎯 Two Things You Need To Do
+
+### 1. Get API Key
+📍 Visit: https://aistudio.google.com/app/apikey
+- Click "Create API Key"
+- Copy it
+
+### 2. Create `.env` File
+📍 In your portfolio directory, create a file called `.env`:
+
+```
+GEMINI_API_KEY=paste_your_key_here
+NODE_ENV=production
+PORT=3000
+```
+
+## ▶️ Run It
+
+```bash
+cd c:\Users\ADMIN\Desktop\portfolio
+npm install
+npm start
+```
+
+Done! Rocky is live on `http://localhost:3000` 🤖
+
+---
+
+**Need help?** See `ROCKY_SETUP.md` for detailed guide.
